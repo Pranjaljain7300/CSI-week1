@@ -1,0 +1,11 @@
+# !/bin/bash
+# Create a File 
+touch pranjal.txt
+
+# Assign Permission
+chmod 700 pranjal.txt # read ,write ,excute for Owner
+chmod 750 pranjal.txt # read ,write ,excute for Owner ; read ,excute for group
+chmod 755 pranjal.txt # read ,write ,excute for Owner ; read ,excute for group ; read ,excute for user
+
+ls -l pranjal.txt
+
